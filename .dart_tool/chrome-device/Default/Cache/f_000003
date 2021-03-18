@@ -19,15 +19,15 @@ define("main_module.bootstrap", ["web_entrypoint.dart", "dart_sdk"], function(ap
          main();
       });
     }
-    window.$dartAppId = "LUZsiOIv6eTArdXWzdU1cA==";
+    window.$dartAppId = "RFMQkX1pwyy6oP2ScY/wmA==";
 window.$dartReloadConfiguration = "ReloadConfiguration.none";
 window.$dartModuleStrategy = "require-js";
 window.$loadModuleConfig = require;
 window.$dwdsVersion = "8.0.3";
-window.$dwdsDevHandlerPath = "http://localhost:53735/$dwdsSseHandler";
+window.$dwdsDevHandlerPath = "http://localhost:60157/$dwdsSseHandler";
 window.$dartEntrypointPath = "main_module.bootstrap.js";
 window.$requireLoader.forceLoadModule("dwds/src/injected/client");
-window.$dartExtensionUri = "ws://127.0.0.1:53737/$debug";
+window.$dartExtensionUri = "ws://127.0.0.1:60159/$debug";
 
   } else {
     if(window.$dartMainExecuted){
@@ -392,6 +392,7 @@ let modulePaths = {
  "packages/flutter/src/material/text_selection_toolbar.dart": "packages/flutter/src/material/text_selection_toolbar.dart.lib",
  "packages/flutter/src/material/selectable_text.dart": "packages/flutter/src/material/selectable_text.dart.lib",
  "packages/flutter/src/material/desktop_text_selection.dart": "packages/flutter/src/material/desktop_text_selection.dart.lib",
+ "packages/flutter/src/material/button_bar.dart": "packages/flutter/src/material/button_bar.dart.lib",
  "packages/flutter/src/material/switch_list_tile.dart": "packages/flutter/src/material/switch_list_tile.dart.lib",
  "packages/flutter/src/material/switch.dart": "packages/flutter/src/material/switch.dart.lib",
  "packages/flutter/src/material/shadows.dart": "packages/flutter/src/material/shadows.dart.lib",
@@ -754,6 +755,7 @@ let moduleNames = {
  "packages/flutter/src/material/text_selection_toolbar.dart.lib": "packages/flutter/src/material/text_selection_toolbar.dart",
  "packages/flutter/src/material/selectable_text.dart.lib": "packages/flutter/src/material/selectable_text.dart",
  "packages/flutter/src/material/desktop_text_selection.dart.lib": "packages/flutter/src/material/desktop_text_selection.dart",
+ "packages/flutter/src/material/button_bar.dart.lib": "packages/flutter/src/material/button_bar.dart",
  "packages/flutter/src/material/switch_list_tile.dart.lib": "packages/flutter/src/material/switch_list_tile.dart",
  "packages/flutter/src/material/switch.dart.lib": "packages/flutter/src/material/switch.dart",
  "packages/flutter/src/material/shadows.dart.lib": "packages/flutter/src/material/shadows.dart",
