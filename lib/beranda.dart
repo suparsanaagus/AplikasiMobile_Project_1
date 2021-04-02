@@ -64,8 +64,8 @@ class _BerandaState extends State<Beranda> {
             ),
             new ListTile(
               title: new Text("About"),
-              trailing: new Icon(Icons.info_outline),
-            )
+              trailing: new Icon(Icons.warning),
+            ),
           ],
         ),
       ),
@@ -163,9 +163,10 @@ class _BerandaState extends State<Beranda> {
                       child: Text(
                         "Joki",
                         style: TextStyle(
-                            fontSize: 10,
-                            fontWeight: FontWeight.w400,
-                            color: Colors.black),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black
+                        ),
                       ),
                     ),
                   ],

@@ -31,12 +31,12 @@ class _ListProdukState extends State<ListProduk> {
               ));
             },
             child: ProductBox(
-                name: "Sell Account Character *5",
-                description: "Limited or Standar Banner",
-                price: 100000,
-                image: "paimon.png",
-                star: 5,
-                ),
+              name: "Sell Account Character *5",
+              description: "Limited or Standar Banner",
+              price: 100000,
+              image: "paimon.png",
+              star: 5,
+            ),
           ),
           new GestureDetector(
             onTap: () {
@@ -55,8 +55,7 @@ class _ListProdukState extends State<ListProduk> {
                 description: "Gnostic Hymm or Chorus",
                 price: 200000,
                 image: "gnostic.jpg",
-                star: 4
-                ),
+                star: 4),
           ),
           new GestureDetector(
             onTap: () {

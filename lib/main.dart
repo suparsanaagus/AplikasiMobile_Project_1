@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import './beranda.dart' as beranda;
 import './list.dart' as listproduk;
+import './ui/home.dart' as home;
 
 void main() {
   runApp(new MaterialApp(
@@ -34,7 +35,8 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
     return Scaffold(
       body: new TabBarView(controller: controller, children: <Widget>[
         new beranda.Beranda(),
-        new listproduk.ListProduk()
+        new listproduk.ListProduk(),
+        
       ]),
       bottomNavigationBar: new Material(
         color: Colors.black,

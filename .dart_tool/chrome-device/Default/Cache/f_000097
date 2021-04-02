@@ -1,31 +1,15 @@
-define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/flutter/src/material/icon_button.dart', 'packages/flutter/src/widgets/implicit_animations.dart', 'packages/flutter/src/rendering/layer.dart', 'packages/flutter/src/material/constants.dart', 'packages/flutter/src/painting/box_decoration.dart', 'packages/flutter/src/painting/decoration_image.dart', 'packages/flutter/src/painting/box_fit.dart', 'packages/flutter/src/painting/box_border.dart', 'packages/flutter/src/widgets/icon_theme.dart', 'packages/flutter/src/painting/_network_image_web.dart'], (function load__packages__flutter__src__material__circle_avatar_dart(dart_sdk, packages__flutter__src__widgets__widget_span$46dart, packages__flutter__src__material__icon_button$46dart, packages__flutter__src__widgets__implicit_animations$46dart, packages__flutter__src__rendering__layer$46dart, packages__flutter__src__material__constants$46dart, packages__flutter__src__painting__box_decoration$46dart, packages__flutter__src__painting__decoration_image$46dart, packages__flutter__src__painting__box_fit$46dart, packages__flutter__src__painting__box_border$46dart, packages__flutter__src__widgets__icon_theme$46dart, packages__flutter__src__painting___network_image_web$46dart) {
+define(['dart_sdk'], (function load__packages__file__src__interface__error_codes_dart(dart_sdk) {
   'use strict';
   const core = dart_sdk.core;
-  const ui = dart_sdk.ui;
-  const _internal = dart_sdk._internal;
   const dart = dart_sdk.dart;
   const dartx = dart_sdk.dartx;
-  const debug = packages__flutter__src__widgets__widget_span$46dart.src__widgets__debug;
-  const basic = packages__flutter__src__widgets__widget_span$46dart.src__widgets__basic;
-  const media_query = packages__flutter__src__widgets__widget_span$46dart.src__widgets__media_query;
-  const text = packages__flutter__src__widgets__widget_span$46dart.src__widgets__text;
-  const widget_inspector = packages__flutter__src__widgets__widget_span$46dart.src__widgets__widget_inspector;
-  const framework = packages__flutter__src__widgets__widget_span$46dart.src__widgets__framework;
-  const theme$ = packages__flutter__src__material__icon_button$46dart.src__material__theme;
-  const theme_data = packages__flutter__src__material__icon_button$46dart.src__material__theme_data;
-  const implicit_animations = packages__flutter__src__widgets__implicit_animations$46dart.src__widgets__implicit_animations;
-  const box = packages__flutter__src__rendering__layer$46dart.src__rendering__box;
-  const constants = packages__flutter__src__material__constants$46dart.src__material__constants;
-  const box_decoration = packages__flutter__src__painting__box_decoration$46dart.src__painting__box_decoration;
-  const decoration_image = packages__flutter__src__painting__decoration_image$46dart.src__painting__decoration_image;
-  const box_fit = packages__flutter__src__painting__box_fit$46dart.src__painting__box_fit;
-  const box_border = packages__flutter__src__painting__box_border$46dart.src__painting__box_border;
-  const icon_theme = packages__flutter__src__widgets__icon_theme$46dart.src__widgets__icon_theme;
-  const image_provider = packages__flutter__src__painting___network_image_web$46dart.src__painting__image_provider;
-  var circle_avatar = Object.create(dart.library);
+  var error_codes = Object.create(dart.library);
+  var $_get = dartx._get;
   dart._checkModuleNullSafetyMode(false);
   var T = {
-    _LocationL: () => (T._LocationL = dart.constFn(dart.legacy(widget_inspector._Location)))()
+    _CodesToint: () => (T._CodesToint = dart.constFn(dart.fnType(core.int, [error_codes._Codes])))(),
+    StringL: () => (T.StringL = dart.constFn(dart.legacy(core.String)))(),
+    _CodesL: () => (T._CodesL = dart.constFn(dart.legacy(error_codes._Codes)))()
   };
   var T$Eval = Object.assign({
     _: () => T$Eval
@@ -40,423 +24,802 @@ define(['dart_sdk', 'packages/flutter/src/widgets/widget_span.dart', 'packages/f
     _: () => (C, CT)
   });
   dart.defineLazy(CT, {
-    get C0() {
-      return C[0] = dart.const({
-        __proto__: ui.Brightness.prototype,
-        [_name]: "Brightness.dark",
-        index: 0
-      });
-    },
     get C1() {
       return C[1] = dart.const({
-        __proto__: ui.Brightness.prototype,
-        [_name]: "Brightness.light",
-        index: 1
+        __proto__: error_codes._LinuxCodes.prototype
       });
-    },
-    get C4() {
-      return C[4] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "style",
-        [_Location_column]: 21,
-        [_Location_line]: 259,
-        [_Location_file]: null
-      });
-    },
-    get C5() {
-      return C[5] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 21,
-        [_Location_line]: 260,
-        [_Location_file]: null
-      });
-    },
-    get C3() {
-      return C[3] = dart.constList([C[4] || CT.C4, C[5] || CT.C5], T._LocationL());
     },
     get C2() {
       return C[2] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C[3] || CT.C3,
-        [_Location_name]: null,
-        [_Location_column]: 26,
-        [_Location_line]: 258,
-        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
+        __proto__: error_codes._MacOSCodes.prototype
       });
     },
-    get C8() {
-      return C[8] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "data",
-        [_Location_column]: 19,
-        [_Location_line]: 257,
-        [_Location_file]: null
+    get C3() {
+      return C[3] = dart.const({
+        __proto__: error_codes._WindowsCodes.prototype
       });
     },
-    get C9() {
-      return C[9] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 19,
-        [_Location_line]: 258,
-        [_Location_file]: null
-      });
-    },
-    get C7() {
-      return C[7] = dart.constList([C[8] || CT.C8, C[9] || CT.C9], T._LocationL());
-    },
-    get C6() {
-      return C[6] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C[7] || CT.C7,
-        [_Location_name]: null,
-        [_Location_column]: 24,
-        [_Location_line]: 256,
-        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
-      });
-    },
-    get C12() {
-      return C[12] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "data",
-        [_Location_column]: 17,
-        [_Location_line]: 255,
-        [_Location_file]: null
-      });
-    },
-    get C13() {
-      return C[13] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 17,
-        [_Location_line]: 256,
-        [_Location_file]: null
-      });
-    },
-    get C11() {
-      return C[11] = dart.constList([C[12] || CT.C12, C[13] || CT.C13], T._LocationL());
-    },
-    get C10() {
-      return C[10] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C[11] || CT.C11,
-        [_Location_name]: null,
-        [_Location_column]: 22,
-        [_Location_line]: 252,
-        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
-      });
-    },
-    get C16() {
-      return C[16] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 15,
-        [_Location_line]: 252,
-        [_Location_file]: null
-      });
-    },
-    get C15() {
-      return C[15] = dart.constList([C[16] || CT.C16], T._LocationL());
-    },
-    get C14() {
-      return C[14] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C[15] || CT.C15,
-        [_Location_name]: null,
-        [_Location_column]: 13,
-        [_Location_line]: 251,
-        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
-      });
-    },
-    get C19() {
-      return C[19] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "constraints",
-        [_Location_column]: 7,
-        [_Location_line]: 221,
-        [_Location_file]: null
-      });
-    },
-    get C20() {
-      return C[20] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "duration",
-        [_Location_column]: 7,
-        [_Location_line]: 227,
-        [_Location_file]: null
-      });
-    },
-    get C21() {
-      return C[21] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "decoration",
-        [_Location_column]: 7,
-        [_Location_line]: 228,
-        [_Location_file]: null
-      });
-    },
-    get C22() {
-      return C[22] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "foregroundDecoration",
-        [_Location_column]: 7,
-        [_Location_line]: 239,
-        [_Location_file]: null
-      });
-    },
-    get C23() {
-      return C[23] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: null,
-        [_Location_name]: "child",
-        [_Location_column]: 7,
-        [_Location_line]: 249,
-        [_Location_file]: null
-      });
-    },
-    get C18() {
-      return C[18] = dart.constList([C[19] || CT.C19, C[20] || CT.C20, C[21] || CT.C21, C[22] || CT.C22, C[23] || CT.C23], T._LocationL());
-    },
-    get C17() {
-      return C[17] = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        [_Location_parameterLocations]: C[18] || CT.C18,
-        [_Location_name]: null,
-        [_Location_column]: 12,
-        [_Location_line]: 220,
-        [_Location_file]: "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart"
-      });
+    get C0() {
+      return C[0] = dart.constMap(T.StringL(), T._CodesL(), ["linux", C[1] || CT.C1, "macos", C[2] || CT.C2, "windows", C[3] || CT.C3]);
     }
   }, false);
-  var C = Array(24).fill(void 0);
+  var C = Array(4).fill(void 0);
   var I = [
-    "file:///C:/flutter/packages/flutter/lib/src/material/circle_avatar.dart",
-    "package:flutter/src/material/circle_avatar.dart"
+    "file:///C:/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.0/lib/src/interface/error_codes.dart",
+    "package:file/src/interface/error_codes.dart"
   ];
-  var child$ = dart.privateName(circle_avatar, "CircleAvatar.child");
-  var backgroundColor$ = dart.privateName(circle_avatar, "CircleAvatar.backgroundColor");
-  var foregroundColor$ = dart.privateName(circle_avatar, "CircleAvatar.foregroundColor");
-  var backgroundImage$ = dart.privateName(circle_avatar, "CircleAvatar.backgroundImage");
-  var foregroundImage$ = dart.privateName(circle_avatar, "CircleAvatar.foregroundImage");
-  var onBackgroundImageError$ = dart.privateName(circle_avatar, "CircleAvatar.onBackgroundImageError");
-  var onForegroundImageError$ = dart.privateName(circle_avatar, "CircleAvatar.onForegroundImageError");
-  var radius$ = dart.privateName(circle_avatar, "CircleAvatar.radius");
-  var minRadius$ = dart.privateName(circle_avatar, "CircleAvatar.minRadius");
-  var maxRadius$ = dart.privateName(circle_avatar, "CircleAvatar.maxRadius");
-  var _minDiameter = dart.privateName(circle_avatar, "_minDiameter");
-  var _maxDiameter = dart.privateName(circle_avatar, "_maxDiameter");
-  var _name = dart.privateName(ui, "_name");
-  var _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
-  var _Location_name = dart.privateName(widget_inspector, "_Location.name");
-  var _Location_column = dart.privateName(widget_inspector, "_Location.column");
-  var _Location_line = dart.privateName(widget_inspector, "_Location.line");
-  var _Location_file = dart.privateName(widget_inspector, "_Location.file");
-  circle_avatar.CircleAvatar = class CircleAvatar extends framework.StatelessWidget {
-    get child() {
-      return this[child$];
+  error_codes.ErrorCodes = class ErrorCodes extends core.Object {
+    static get E2BIG() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 15, 45, "codes");
+        return codes.e2big;
+      }, T._CodesToint()));
     }
-    set child(value) {
-      super.child = value;
+    static get EACCES() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 19, 46, "codes");
+        return codes.eacces;
+      }, T._CodesToint()));
     }
-    get backgroundColor() {
-      return this[backgroundColor$];
+    static get EAGAIN() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 23, 46, "codes");
+        return codes.eagain;
+      }, T._CodesToint()));
     }
-    set backgroundColor(value) {
-      super.backgroundColor = value;
+    static get EBADF() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 27, 45, "codes");
+        return codes.ebadf;
+      }, T._CodesToint()));
     }
-    get foregroundColor() {
-      return this[foregroundColor$];
+    static get EBUSY() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 31, 45, "codes");
+        return codes.ebusy;
+      }, T._CodesToint()));
     }
-    set foregroundColor(value) {
-      super.foregroundColor = value;
+    static get ECHILD() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 35, 46, "codes");
+        return codes.echild;
+      }, T._CodesToint()));
     }
-    get backgroundImage() {
-      return this[backgroundImage$];
+    static get EDEADLK() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 39, 47, "codes");
+        return codes.edeadlk;
+      }, T._CodesToint()));
     }
-    set backgroundImage(value) {
-      super.backgroundImage = value;
+    static get EDOM() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 43, 44, "codes");
+        return codes.edom;
+      }, T._CodesToint()));
     }
-    get foregroundImage() {
-      return this[foregroundImage$];
+    static get EEXIST() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 47, 46, "codes");
+        return codes.eexist;
+      }, T._CodesToint()));
     }
-    set foregroundImage(value) {
-      super.foregroundImage = value;
+    static get EFAULT() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 51, 46, "codes");
+        return codes.efault;
+      }, T._CodesToint()));
     }
-    get onBackgroundImageError() {
-      return this[onBackgroundImageError$];
+    static get EFBIG() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 55, 45, "codes");
+        return codes.efbig;
+      }, T._CodesToint()));
     }
-    set onBackgroundImageError(value) {
-      super.onBackgroundImageError = value;
+    static get EILSEQ() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 59, 46, "codes");
+        return codes.eilseq;
+      }, T._CodesToint()));
     }
-    get onForegroundImageError() {
-      return this[onForegroundImageError$];
+    static get EINTR() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 63, 45, "codes");
+        return codes.eintr;
+      }, T._CodesToint()));
     }
-    set onForegroundImageError(value) {
-      super.onForegroundImageError = value;
+    static get EINVAL() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 67, 46, "codes");
+        return codes.einval;
+      }, T._CodesToint()));
     }
-    get radius() {
-      return this[radius$];
+    static get EIO() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 71, 43, "codes");
+        return codes.eio;
+      }, T._CodesToint()));
     }
-    set radius(value) {
-      super.radius = value;
+    static get EISDIR() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 75, 46, "codes");
+        return codes.eisdir;
+      }, T._CodesToint()));
     }
-    get minRadius() {
-      return this[minRadius$];
+    static get ELOOP() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 79, 45, "codes");
+        return codes.eloop;
+      }, T._CodesToint()));
     }
-    set minRadius(value) {
-      super.minRadius = value;
+    static get EMFILE() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 83, 46, "codes");
+        return codes.emfile;
+      }, T._CodesToint()));
     }
-    get maxRadius() {
-      return this[maxRadius$];
+    static get EMLINK() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 87, 46, "codes");
+        return codes.emlink;
+      }, T._CodesToint()));
     }
-    set maxRadius(value) {
-      super.maxRadius = value;
+    static get ENAMETOOLONG() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 92, 25, "codes");
+        return codes.enametoolong;
+      }, T._CodesToint()));
     }
-    get [_minDiameter]() {
-      let t0, t0$;
-      if (this.radius == null && this.minRadius == null && this.maxRadius == null) {
-        return 20 * 2.0;
-      }
-      return 2.0 * dart.notNull((t0$ = (t0 = this.radius, t0 == null ? this.minRadius : t0), t0$ == null ? 0 : t0$));
+    static get ENFILE() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 96, 46, "codes");
+        return codes.enfile;
+      }, T._CodesToint()));
     }
-    get [_maxDiameter]() {
-      let t0, t0$;
-      if (this.radius == null && this.minRadius == null && this.maxRadius == null) {
-        return 20 * 2.0;
-      }
-      return 2.0 * dart.notNull((t0$ = (t0 = this.radius, t0 == null ? this.maxRadius : t0), t0$ == null ? 1 / 0 : t0$));
+    static get ENODEV() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 100, 46, "codes");
+        return codes.enodev;
+      }, T._CodesToint()));
     }
-    build(context) {
-      if (context == null) dart.nullFailed(I[0], 194, 29, "context");
-      if (!dart.test(debug.debugCheckHasMediaQuery(context))) dart.assertFailed(null, I[0], 195, 12, "debugCheckHasMediaQuery(context)");
-      let theme = theme$.Theme.of(context);
-      let textStyle = dart.nullCheck(theme.primaryTextTheme.subtitle1).copyWith({color: this.foregroundColor});
-      let effectiveBackgroundColor = this.backgroundColor;
-      if (effectiveBackgroundColor == null) {
-        switch (theme_data.ThemeData.estimateBrightnessForColor(dart.nullCheck(textStyle.color))) {
-          case C[0] || CT.C0:
-          {
-            effectiveBackgroundColor = theme.primaryColorLight;
-            break;
-          }
-          case C[1] || CT.C1:
-          {
-            effectiveBackgroundColor = theme.primaryColorDark;
-            break;
-          }
-          default:
-          {
-            dart.throw(new _internal.ReachabilityError.new("`null` encountered as case in a switch expression with a non-nullable enum type."));
-          }
-        }
-      } else if (this.foregroundColor == null) {
-        switch (theme_data.ThemeData.estimateBrightnessForColor(dart.nullCheck(this.backgroundColor))) {
-          case C[0] || CT.C0:
-          {
-            textStyle = textStyle.copyWith({color: theme.primaryColorLight});
-            break;
-          }
-          case C[1] || CT.C1:
-          {
-            textStyle = textStyle.copyWith({color: theme.primaryColorDark});
-            break;
-          }
-          default:
-          {
-            dart.throw(new _internal.ReachabilityError.new("`null` encountered as case in a switch expression with a non-nullable enum type."));
-          }
-        }
-      }
-      let minDiameter = this[_minDiameter];
-      let maxDiameter = this[_maxDiameter];
-      return new implicit_animations.AnimatedContainer.new({constraints: new box.BoxConstraints.new({minHeight: minDiameter, minWidth: minDiameter, maxWidth: maxDiameter, maxHeight: maxDiameter}), duration: constants.kThemeChangeDuration, decoration: new box_decoration.BoxDecoration.new({color: effectiveBackgroundColor, image: this.backgroundImage != null ? new decoration_image.DecorationImage.new({image: dart.nullCheck(this.backgroundImage), onError: this.onBackgroundImageError, fit: box_fit.BoxFit.cover}) : null, shape: box_border.BoxShape.circle}), foregroundDecoration: this.foregroundImage != null ? new box_decoration.BoxDecoration.new({image: new decoration_image.DecorationImage.new({image: dart.nullCheck(this.foregroundImage), onError: this.onForegroundImageError, fit: box_fit.BoxFit.cover}), shape: box_border.BoxShape.circle}) : null, child: this.child == null ? null : new basic.Center.new({child: new media_query.MediaQuery.new({data: media_query.MediaQuery.of(context).copyWith({textScaleFactor: 1.0}), child: new icon_theme.IconTheme.new({data: theme.iconTheme.copyWith({color: textStyle.color}), child: new text.DefaultTextStyle.new({style: textStyle, child: dart.nullCheck(this.child), $creationLocationd_0dea112b090073317d4: C[2] || CT.C2}), $creationLocationd_0dea112b090073317d4: C[6] || CT.C6}), $creationLocationd_0dea112b090073317d4: C[10] || CT.C10}), $creationLocationd_0dea112b090073317d4: C[14] || CT.C14}), $creationLocationd_0dea112b090073317d4: C[17] || CT.C17});
+    static get ENOENT() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 104, 46, "codes");
+        return codes.enoent;
+      }, T._CodesToint()));
+    }
+    static get ENOEXEC() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 108, 47, "codes");
+        return codes.enoexec;
+      }, T._CodesToint()));
+    }
+    static get ENOLCK() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 112, 46, "codes");
+        return codes.enolck;
+      }, T._CodesToint()));
+    }
+    static get ENOMEM() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 116, 46, "codes");
+        return codes.enomem;
+      }, T._CodesToint()));
+    }
+    static get ENOSPC() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 120, 46, "codes");
+        return codes.enospc;
+      }, T._CodesToint()));
+    }
+    static get ENOSYS() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 124, 46, "codes");
+        return codes.enosys;
+      }, T._CodesToint()));
+    }
+    static get ENOTDIR() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 128, 47, "codes");
+        return codes.enotdir;
+      }, T._CodesToint()));
+    }
+    static get ENOTEMPTY() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 132, 49, "codes");
+        return codes.enotempty;
+      }, T._CodesToint()));
+    }
+    static get ENOTTY() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 136, 46, "codes");
+        return codes.enotty;
+      }, T._CodesToint()));
+    }
+    static get ENXIO() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 140, 45, "codes");
+        return codes.enxio;
+      }, T._CodesToint()));
+    }
+    static get EPERM() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 144, 45, "codes");
+        return codes.eperm;
+      }, T._CodesToint()));
+    }
+    static get EPIPE() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 148, 45, "codes");
+        return codes.epipe;
+      }, T._CodesToint()));
+    }
+    static get ERANGE() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 152, 46, "codes");
+        return codes.erange;
+      }, T._CodesToint()));
+    }
+    static get EROFS() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 156, 45, "codes");
+        return codes.erofs;
+      }, T._CodesToint()));
+    }
+    static get ESPIPE() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 160, 46, "codes");
+        return codes.espipe;
+      }, T._CodesToint()));
+    }
+    static get ESRCH() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 164, 45, "codes");
+        return codes.esrch;
+      }, T._CodesToint()));
+    }
+    static get EXDEV() {
+      return error_codes.ErrorCodes._platform(dart.fn(codes => {
+        if (codes == null) dart.nullFailed(I[0], 168, 45, "codes");
+        return codes.exdev;
+      }, T._CodesToint()));
+    }
+    static _platform(getCode) {
+      let t0;
+      if (getCode == null) dart.nullFailed(I[0], 170, 28, "getCode");
+      let codes = dart.nullCheck((t0 = error_codes._platforms[$_get]("linux"), t0 == null ? error_codes._platforms[$_get]("linux") : t0));
+      return getCode(codes);
     }
   };
-  (circle_avatar.CircleAvatar.new = function(opts) {
-    let key = opts && 'key' in opts ? opts.key : null;
-    let child = opts && 'child' in opts ? opts.child : null;
-    let backgroundColor = opts && 'backgroundColor' in opts ? opts.backgroundColor : null;
-    let backgroundImage = opts && 'backgroundImage' in opts ? opts.backgroundImage : null;
-    let foregroundImage = opts && 'foregroundImage' in opts ? opts.foregroundImage : null;
-    let onBackgroundImageError = opts && 'onBackgroundImageError' in opts ? opts.onBackgroundImageError : null;
-    let onForegroundImageError = opts && 'onForegroundImageError' in opts ? opts.onForegroundImageError : null;
-    let foregroundColor = opts && 'foregroundColor' in opts ? opts.foregroundColor : null;
-    let radius = opts && 'radius' in opts ? opts.radius : null;
-    let minRadius = opts && 'minRadius' in opts ? opts.minRadius : null;
-    let maxRadius = opts && 'maxRadius' in opts ? opts.maxRadius : null;
-    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
-    this[child$] = child;
-    this[backgroundColor$] = backgroundColor;
-    this[backgroundImage$] = backgroundImage;
-    this[foregroundImage$] = foregroundImage;
-    this[onBackgroundImageError$] = onBackgroundImageError;
-    this[onForegroundImageError$] = onForegroundImageError;
-    this[foregroundColor$] = foregroundColor;
-    this[radius$] = radius;
-    this[minRadius$] = minRadius;
-    this[maxRadius$] = maxRadius;
-    if (!(radius == null || minRadius == null && maxRadius == null)) dart.assertFailed(null, I[0], 75, 15, "radius == null || (minRadius == null && maxRadius == null)");
-    if (!(backgroundImage != null || onBackgroundImageError == null)) dart.assertFailed(null, I[0], 76, 15, "backgroundImage != null || onBackgroundImageError == null");
-    if (!(foregroundImage != null || onForegroundImageError == null)) dart.assertFailed(null, I[0], 77, 15, "foregroundImage != null || onForegroundImageError== null");
-    circle_avatar.CircleAvatar.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
+  (error_codes.ErrorCodes.__ = function() {
     ;
-  }).prototype = circle_avatar.CircleAvatar.prototype;
-  dart.addTypeTests(circle_avatar.CircleAvatar);
-  dart.addTypeCaches(circle_avatar.CircleAvatar);
-  dart.setMethodSignature(circle_avatar.CircleAvatar, () => ({
-    __proto__: dart.getMethods(circle_avatar.CircleAvatar.__proto__),
-    build: dart.fnType(framework.Widget, [framework.BuildContext])
-  }));
-  dart.setGetterSignature(circle_avatar.CircleAvatar, () => ({
-    __proto__: dart.getGetters(circle_avatar.CircleAvatar.__proto__),
-    [_minDiameter]: core.double,
-    [_maxDiameter]: core.double
-  }));
-  dart.setLibraryUri(circle_avatar.CircleAvatar, I[1]);
-  dart.setFieldSignature(circle_avatar.CircleAvatar, () => ({
-    __proto__: dart.getFields(circle_avatar.CircleAvatar.__proto__),
-    child: dart.finalFieldType(dart.nullable(framework.Widget)),
-    backgroundColor: dart.finalFieldType(dart.nullable(ui.Color)),
-    foregroundColor: dart.finalFieldType(dart.nullable(ui.Color)),
-    backgroundImage: dart.finalFieldType(dart.nullable(image_provider.ImageProvider$(core.Object))),
-    foregroundImage: dart.finalFieldType(dart.nullable(image_provider.ImageProvider$(core.Object))),
-    onBackgroundImageError: dart.finalFieldType(dart.nullable(dart.fnType(dart.void, [core.Object, dart.nullable(core.StackTrace)]))),
-    onForegroundImageError: dart.finalFieldType(dart.nullable(dart.fnType(dart.void, [core.Object, dart.nullable(core.StackTrace)]))),
-    radius: dart.finalFieldType(dart.nullable(core.double)),
-    minRadius: dart.finalFieldType(dart.nullable(core.double)),
-    maxRadius: dart.finalFieldType(dart.nullable(core.double))
-  }));
-  dart.defineLazy(circle_avatar.CircleAvatar, {
-    /*circle_avatar.CircleAvatar._defaultRadius*/get _defaultRadius() {
+  }).prototype = error_codes.ErrorCodes.prototype;
+  dart.addTypeTests(error_codes.ErrorCodes);
+  dart.addTypeCaches(error_codes.ErrorCodes);
+  dart.setLibraryUri(error_codes.ErrorCodes, I[1]);
+  error_codes._Codes = class _Codes extends core.Object {};
+  (error_codes._Codes.new = function() {
+    ;
+  }).prototype = error_codes._Codes.prototype;
+  dart.addTypeTests(error_codes._Codes);
+  dart.addTypeCaches(error_codes._Codes);
+  dart.setLibraryUri(error_codes._Codes, I[1]);
+  error_codes._LinuxCodes = class _LinuxCodes extends core.Object {
+    get e2big() {
+      return 7;
+    }
+    get eacces() {
+      return 13;
+    }
+    get eagain() {
+      return 11;
+    }
+    get ebadf() {
+      return 9;
+    }
+    get ebusy() {
+      return 16;
+    }
+    get echild() {
+      return 10;
+    }
+    get edeadlk() {
+      return 35;
+    }
+    get edom() {
+      return 33;
+    }
+    get eexist() {
+      return 17;
+    }
+    get efault() {
+      return 14;
+    }
+    get efbig() {
+      return 27;
+    }
+    get eilseq() {
+      return 84;
+    }
+    get eintr() {
+      return 4;
+    }
+    get einval() {
+      return 22;
+    }
+    get eio() {
+      return 5;
+    }
+    get eisdir() {
+      return 21;
+    }
+    get eloop() {
+      return 40;
+    }
+    get emfile() {
+      return 24;
+    }
+    get emlink() {
+      return 31;
+    }
+    get enametoolong() {
+      return 36;
+    }
+    get enfile() {
+      return 23;
+    }
+    get enodev() {
+      return 19;
+    }
+    get enoent() {
+      return 2;
+    }
+    get enoexec() {
+      return 8;
+    }
+    get enolck() {
+      return 37;
+    }
+    get enomem() {
+      return 12;
+    }
+    get enospc() {
+      return 28;
+    }
+    get enosys() {
+      return 38;
+    }
+    get enotdir() {
       return 20;
-    },
-    /*circle_avatar.CircleAvatar._defaultMinRadius*/get _defaultMinRadius() {
-      return 0;
-    },
-    /*circle_avatar.CircleAvatar._defaultMaxRadius*/get _defaultMaxRadius() {
-      return 1 / 0;
+    }
+    get enotempty() {
+      return 39;
+    }
+    get enotty() {
+      return 25;
+    }
+    get enxio() {
+      return 6;
+    }
+    get eperm() {
+      return 1;
+    }
+    get epipe() {
+      return 32;
+    }
+    get erange() {
+      return 34;
+    }
+    get erofs() {
+      return 30;
+    }
+    get espipe() {
+      return 29;
+    }
+    get esrch() {
+      return 3;
+    }
+    get exdev() {
+      return 18;
+    }
+  };
+  (error_codes._LinuxCodes.new = function() {
+    ;
+  }).prototype = error_codes._LinuxCodes.prototype;
+  dart.addTypeTests(error_codes._LinuxCodes);
+  dart.addTypeCaches(error_codes._LinuxCodes);
+  error_codes._LinuxCodes[dart.implements] = () => [error_codes._Codes];
+  dart.setGetterSignature(error_codes._LinuxCodes, () => ({
+    __proto__: dart.getGetters(error_codes._LinuxCodes.__proto__),
+    e2big: core.int,
+    eacces: core.int,
+    eagain: core.int,
+    ebadf: core.int,
+    ebusy: core.int,
+    echild: core.int,
+    edeadlk: core.int,
+    edom: core.int,
+    eexist: core.int,
+    efault: core.int,
+    efbig: core.int,
+    eilseq: core.int,
+    eintr: core.int,
+    einval: core.int,
+    eio: core.int,
+    eisdir: core.int,
+    eloop: core.int,
+    emfile: core.int,
+    emlink: core.int,
+    enametoolong: core.int,
+    enfile: core.int,
+    enodev: core.int,
+    enoent: core.int,
+    enoexec: core.int,
+    enolck: core.int,
+    enomem: core.int,
+    enospc: core.int,
+    enosys: core.int,
+    enotdir: core.int,
+    enotempty: core.int,
+    enotty: core.int,
+    enxio: core.int,
+    eperm: core.int,
+    epipe: core.int,
+    erange: core.int,
+    erofs: core.int,
+    espipe: core.int,
+    esrch: core.int,
+    exdev: core.int
+  }));
+  dart.setLibraryUri(error_codes._LinuxCodes, I[1]);
+  error_codes._MacOSCodes = class _MacOSCodes extends core.Object {
+    get e2big() {
+      return 7;
+    }
+    get eacces() {
+      return 13;
+    }
+    get eagain() {
+      return 35;
+    }
+    get ebadf() {
+      return 9;
+    }
+    get ebusy() {
+      return 16;
+    }
+    get echild() {
+      return 10;
+    }
+    get edeadlk() {
+      return 11;
+    }
+    get edom() {
+      return 33;
+    }
+    get eexist() {
+      return 17;
+    }
+    get efault() {
+      return 14;
+    }
+    get efbig() {
+      return 27;
+    }
+    get eilseq() {
+      return 92;
+    }
+    get eintr() {
+      return 4;
+    }
+    get einval() {
+      return 22;
+    }
+    get eio() {
+      return 5;
+    }
+    get eisdir() {
+      return 21;
+    }
+    get eloop() {
+      return 62;
+    }
+    get emfile() {
+      return 24;
+    }
+    get emlink() {
+      return 31;
+    }
+    get enametoolong() {
+      return 63;
+    }
+    get enfile() {
+      return 23;
+    }
+    get enodev() {
+      return 19;
+    }
+    get enoent() {
+      return 2;
+    }
+    get enoexec() {
+      return 8;
+    }
+    get enolck() {
+      return 77;
+    }
+    get enomem() {
+      return 12;
+    }
+    get enospc() {
+      return 28;
+    }
+    get enosys() {
+      return 78;
+    }
+    get enotdir() {
+      return 20;
+    }
+    get enotempty() {
+      return 66;
+    }
+    get enotty() {
+      return 25;
+    }
+    get enxio() {
+      return 6;
+    }
+    get eperm() {
+      return 1;
+    }
+    get epipe() {
+      return 32;
+    }
+    get erange() {
+      return 34;
+    }
+    get erofs() {
+      return 30;
+    }
+    get espipe() {
+      return 29;
+    }
+    get esrch() {
+      return 3;
+    }
+    get exdev() {
+      return 18;
+    }
+  };
+  (error_codes._MacOSCodes.new = function() {
+    ;
+  }).prototype = error_codes._MacOSCodes.prototype;
+  dart.addTypeTests(error_codes._MacOSCodes);
+  dart.addTypeCaches(error_codes._MacOSCodes);
+  error_codes._MacOSCodes[dart.implements] = () => [error_codes._Codes];
+  dart.setGetterSignature(error_codes._MacOSCodes, () => ({
+    __proto__: dart.getGetters(error_codes._MacOSCodes.__proto__),
+    e2big: core.int,
+    eacces: core.int,
+    eagain: core.int,
+    ebadf: core.int,
+    ebusy: core.int,
+    echild: core.int,
+    edeadlk: core.int,
+    edom: core.int,
+    eexist: core.int,
+    efault: core.int,
+    efbig: core.int,
+    eilseq: core.int,
+    eintr: core.int,
+    einval: core.int,
+    eio: core.int,
+    eisdir: core.int,
+    eloop: core.int,
+    emfile: core.int,
+    emlink: core.int,
+    enametoolong: core.int,
+    enfile: core.int,
+    enodev: core.int,
+    enoent: core.int,
+    enoexec: core.int,
+    enolck: core.int,
+    enomem: core.int,
+    enospc: core.int,
+    enosys: core.int,
+    enotdir: core.int,
+    enotempty: core.int,
+    enotty: core.int,
+    enxio: core.int,
+    eperm: core.int,
+    epipe: core.int,
+    erange: core.int,
+    erofs: core.int,
+    espipe: core.int,
+    esrch: core.int,
+    exdev: core.int
+  }));
+  dart.setLibraryUri(error_codes._MacOSCodes, I[1]);
+  error_codes._WindowsCodes = class _WindowsCodes extends core.Object {
+    get e2big() {
+      return 7;
+    }
+    get eacces() {
+      return 13;
+    }
+    get eagain() {
+      return 11;
+    }
+    get ebadf() {
+      return 9;
+    }
+    get ebusy() {
+      return 16;
+    }
+    get echild() {
+      return 10;
+    }
+    get edeadlk() {
+      return 36;
+    }
+    get edom() {
+      return 33;
+    }
+    get eexist() {
+      return 17;
+    }
+    get efault() {
+      return 14;
+    }
+    get efbig() {
+      return 27;
+    }
+    get eilseq() {
+      return 42;
+    }
+    get eintr() {
+      return 4;
+    }
+    get einval() {
+      return 22;
+    }
+    get eio() {
+      return 5;
+    }
+    get eisdir() {
+      return 21;
+    }
+    get eloop() {
+      return -1;
+    }
+    get emfile() {
+      return 24;
+    }
+    get emlink() {
+      return 31;
+    }
+    get enametoolong() {
+      return 38;
+    }
+    get enfile() {
+      return 23;
+    }
+    get enodev() {
+      return 19;
+    }
+    get enoent() {
+      return 2;
+    }
+    get enoexec() {
+      return 8;
+    }
+    get enolck() {
+      return 39;
+    }
+    get enomem() {
+      return 12;
+    }
+    get enospc() {
+      return 28;
+    }
+    get enosys() {
+      return 40;
+    }
+    get enotdir() {
+      return 20;
+    }
+    get enotempty() {
+      return 41;
+    }
+    get enotty() {
+      return 25;
+    }
+    get enxio() {
+      return 6;
+    }
+    get eperm() {
+      return 1;
+    }
+    get epipe() {
+      return 32;
+    }
+    get erange() {
+      return 34;
+    }
+    get erofs() {
+      return 30;
+    }
+    get espipe() {
+      return 29;
+    }
+    get esrch() {
+      return 3;
+    }
+    get exdev() {
+      return 18;
+    }
+  };
+  (error_codes._WindowsCodes.new = function() {
+    ;
+  }).prototype = error_codes._WindowsCodes.prototype;
+  dart.addTypeTests(error_codes._WindowsCodes);
+  dart.addTypeCaches(error_codes._WindowsCodes);
+  error_codes._WindowsCodes[dart.implements] = () => [error_codes._Codes];
+  dart.setGetterSignature(error_codes._WindowsCodes, () => ({
+    __proto__: dart.getGetters(error_codes._WindowsCodes.__proto__),
+    e2big: core.int,
+    eacces: core.int,
+    eagain: core.int,
+    ebadf: core.int,
+    ebusy: core.int,
+    echild: core.int,
+    edeadlk: core.int,
+    edom: core.int,
+    eexist: core.int,
+    efault: core.int,
+    efbig: core.int,
+    eilseq: core.int,
+    eintr: core.int,
+    einval: core.int,
+    eio: core.int,
+    eisdir: core.int,
+    eloop: core.int,
+    emfile: core.int,
+    emlink: core.int,
+    enametoolong: core.int,
+    enfile: core.int,
+    enodev: core.int,
+    enoent: core.int,
+    enoexec: core.int,
+    enolck: core.int,
+    enomem: core.int,
+    enospc: core.int,
+    enosys: core.int,
+    enotdir: core.int,
+    enotempty: core.int,
+    enotty: core.int,
+    enxio: core.int,
+    eperm: core.int,
+    epipe: core.int,
+    erange: core.int,
+    erofs: core.int,
+    espipe: core.int,
+    esrch: core.int,
+    exdev: core.int
+  }));
+  dart.setLibraryUri(error_codes._WindowsCodes, I[1]);
+  dart.defineLazy(error_codes, {
+    /*error_codes._platforms*/get _platforms() {
+      return C[0] || CT.C0;
     }
   }, false);
-  dart.trackLibraries("packages/flutter/src/material/circle_avatar.dart", {
-    "package:flutter/src/material/circle_avatar.dart": circle_avatar
+  dart.trackLibraries("packages/file/src/interface/error_codes.dart", {
+    "package:file/src/interface/error_codes.dart": error_codes
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["circle_avatar.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAmFgB;;;;;;IAQD;;;;;;IASA;;;;;;IAQQ;;;;;;IAKA;;;;;;IAIK;;;;;;IAIA;;;;;;IAcZ;;;;;;IAgBA;;;;;;IAgBA;;;;;;;;AAYZ,UAAI,AAAO,uBAAW,AAAU,0BAAW,AAAU;AACnD,cAAsB,MAAE;;AAE1B,YAAO,AAAI,qBAAuB,OAAb,kBAAP,aAAU,sBAAH;IACvB;;;AAGE,UAAI,AAAO,uBAAW,AAAU,0BAAW,AAAU;AACnD,cAAsB,MAAE;;AAE1B,YAAO,AAAI,qBAAuB,OAAb,kBAAP,aAAU,sBAAH;IACvB;;UAG0B;AACxB,qBAAO,8BAAwB,OAAO;AACtB,kBAAc,gBAAG,OAAO;AAC9B,sBAA4C,AAAE,eAAlC,AAAM,AAAiB,KAAlB,8CAA6C;AACjE,qCAA2B;AAClC,UAAI,AAAyB,wBAAD;AAC1B,gBAAkB,gDAA0C,eAAf,AAAU,SAAD;;;AAEA,YAAlD,2BAA2B,AAAM,KAAD;AAChC;;;;AAEiD,YAAjD,2BAA2B,AAAM,KAAD;AAChC;;;;AANJ;;;YAQK,KAAI,AAAgB;AACzB,gBAAkB,gDAA0C,eAAf;;;AAEqB,YAA9D,YAAY,AAAU,SAAD,kBAAiB,AAAM,KAAD;AAC3C;;;;AAE6D,YAA7D,YAAY,AAAU,SAAD,kBAAiB,AAAM,KAAD;AAC3C;;;;AANJ;;;;AASW,wBAAc;AACd,wBAAc;AAC3B,YAAO,6DACQ,uCACA,WAAW,YACZ,WAAW,YACX,WAAW,aACV,WAAW,cAEd,4CACE,6CACH,wBAAwB,SACxB,AAAgB,+BACnB,iDACwB,eAAf,gCACE,kCACG,yBAEd,aACY,oDAEI,AAAgB,+BAChC,6CACS,iDACiB,eAAf,gCACE,kCACG,+BAEE,+BAElB,aACC,AAAM,qBACP,OACA,6BACS,sCAGY,AAAY,0BAAT,OAAO,6BAA4B,cAChD,oCACC,AAAM,AAAU,KAAX,4BAA2B,AAAU,SAAD,iBACxC,sCACE,SAAS,SACJ,eAAL;IAMzB;;;QA1MO;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;;IATA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;UACK,AAAO,AAAQ,MAAT,YAAa,AAAU,SAAD,YAAY,AAAU,SAAD;UACjD,AAAgB,AAAQ,eAAT,YAAY,AAAuB,sBAAD;UACjD,AAAgB,AAAQ,eAAT,YAAY,AAAsB,sBAAA;AACxD,8DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;MA6FA,yCAAc;;;MAGd,4CAAiB;;;MAGjB,4CAAiB","file":"../../../../../../packages/flutter/src/material/circle_avatar.dart.lib.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["error_codes.dart"],"names":[],"mappings":"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","file":"../../../../../../../../../D:/packages/file/src/interface/error_codes.dart.lib.js"}');
   // Exports:
   return {
-    src__material__circle_avatar: circle_avatar
+    src__interface__error_codes: error_codes
   };
 }));
 
-//# sourceMappingURL=circle_avatar.dart.lib.js.map
+//# sourceMappingURL=error_codes.dart.lib.js.map
